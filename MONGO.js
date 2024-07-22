@@ -1,3 +1,138 @@
+// Basic and Intermediate Queries
+Find all documents in a collection.
+Find documents with specific field values.
+Find documents where a field is greater than or less than a value.
+Use $in to match documents with field values in a list.
+Use $regex to find documents where a field matches a regular expression.
+Sort documents by a field in ascending and descending order.
+Project specific fields in query results.
+Use $elemMatch to query documents containing arrays with specific conditions.
+Update a single document with $set.
+Update multiple documents with $set and other update operators.
+Upsert a document.
+Delete documents matching specific criteria.
+Use aggregation framework to perform calculations.
+Use $group to aggregate data by a field.
+Count documents matching certain criteria.
+Find documents with missing fields.
+Use $exists to check if a field exists.
+Find documents where the field contains certain values in an array.
+Use $lookup for performing joins.
+Use $unwind to deconstruct arrays in aggregation.
+Use $match to filter data in aggregation pipelines.
+Use $project to include or exclude fields in aggregation pipelines.
+Use $addFields to add new fields or modify existing fields in aggregation.
+Perform conditional aggregation with $cond.
+Use $bucket to categorize documents into buckets.
+
+
+Advanced Queries and Indexing
+Create indexes for better query performance.
+Explain query plans using .explain().
+Analyze and optimize query performance.
+Use compound indexes for multiple fields.
+Use geospatial queries and indexes for location-based data.
+Use text indexes for full-text search.
+Implement wildcard indexes for fields with dynamic names.
+Use TTL (Time-To-Live) indexes for automatic document expiration.
+Analyze the impact of index creation on write performance.
+Manage and drop indexes when no longer needed.
+Use hashed indexes for sharding.
+Use the $geoNear aggregation stage for proximity searches.
+Implement sharding for horizontal scaling.
+Query for documents within a specific geo-radius.
+Use $facet for multi-faceted aggregations.
+Query for documents with a specific time range.
+Perform join operations with $lookup and $graphLookup.
+Use $merge to output results of aggregation into another collection.
+Implement custom aggregations using $function.
+Handle large datasets efficiently with $merge and $out.
+Optimize aggregations by minimizing the use of $lookup.
+
+
+Security and Backup
+Implement MongoDB authentication and authorization.
+Use role-based access control (RBAC) for securing databases.
+Perform data backups using mongodump and mongorestore.
+Use MongoDB Atlas for managed backup and recovery.
+Secure MongoDB connections using TLS/SSL.
+Monitor MongoDB using monitoring tools and MongoDB Atlas.
+Audit MongoDB operations for compliance.
+Implement data encryption at rest and in transit.
+Set up MongoDB for disaster recovery.
+Restore specific collections or documents from backup.
+
+
+Schema Design and Data Modeling
+Design schemas for hierarchical data using embedded documents.
+Design schemas for large datasets using references and normalization.
+Optimize schema design for read and write performance.
+Use schema validation with JSON Schema to enforce data integrity.
+Handle schema migrations and updates in a live system.
+Design for high availability and failover.
+Implement data denormalization strategies for performance.
+Use bucketing for time-series data management.
+Manage relationships between documents efficiently.
+Handle large binary data (BLOBs) with GridFS.
+
+
+Performance Tuning and Troubleshooting
+Identify and resolve performance bottlenecks.
+Optimize query performance using indexes and query restructuring.
+Tune MongoDB configuration settings for optimal performance.
+Analyze and resolve lock contention issues.
+Use MongoDB Profiler to monitor slow queries.
+Understand and mitigate the impact of write locks.
+Optimize memory usage and garbage collection.
+Handle large-scale data imports and exports efficiently.
+Implement caching strategies to improve performance.
+Monitor replication lag in a replica set.
+Diagnose and fix network latency issues.
+Resolve issues with MongoDB drivers and their impact on performance.
+
+
+Real-Time Use Cases
+Implement real-time analytics with change streams.
+Set up real-time notifications using MongoDB Change Streams.
+Optimize real-time data ingestion and processing.
+Design for low-latency queries in high-throughput applications.
+Use MongoDB for real-time logging and monitoring.
+Scale out for real-time applications with sharding and replication.
+Implement caching mechanisms for real-time data.
+Use MongoDB Atlas Data Lake for real-time data querying.
+
+
+Miscellaneous Advanced Topics
+Use MongoDB’s aggregation framework for complex queries.
+Implement multi-document transactions for ACID guarantees.
+Handle large-scale data migrations between clusters.
+Manage and monitor replication and failover.
+Use the MongoDB Atlas API for automation and monitoring.
+Implement custom operators and functions in MongoDB.
+Handle versioning and evolution of document schemas.
+Integrate MongoDB with other data sources and services.
+Use MongoDB with microservices architecture.
+Optimize write-heavy workloads with MongoDB.
+Implement custom sharding strategies.
+Design and implement advanced backup strategies.
+Explore and use MongoDB’s advanced features like Transactions and Aggregations.
+Stay updated with MongoDB’s latest features and best practices.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // General MongoDB Questions
 What is MongoDB, and how does it differ from traditional relational databases?
 Describe the basic architecture of MongoDB.

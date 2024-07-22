@@ -135,3 +135,32 @@ What are some common pitfalls in JavaScript development?
 How do you stay updated with the latest JavaScript trends and updates?
 What are some effective ways to document JavaScript code?
 Explain the importance of accessibility in web applications and how you ensure it.
+
+
+
+
+
+
+
+
+
+
+const a=[1,2,3,4,5,6,7,8,9];
+const b=[1,4,7] 
+
+
+
+
+
+
+b.map((item)=>{
+    const actual=[]
+    a.map((element)=>{
+        if(item!==element){
+            actual.push(element) 
+        }
+    })
+
+return  actual;
+})
+const actual=[2,3,5,6,8,9];
