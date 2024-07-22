@@ -144,7 +144,7 @@ Explain the importance of accessibility in web applications and how you ensure i
 
 
 
-
+   
 const a=[1,2,3,4,5,6,7,8,9];
 const b=[1,4,7] 
 
