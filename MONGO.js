@@ -116,23 +116,11 @@ Optimize write-heavy workloads with MongoDB.
 Implement custom sharding strategies.
 Design and implement advanced backup strategies.
 Explore and use MongoDB’s advanced features like Transactions and Aggregations.
-Stay updated with MongoDB’s latest features and best practices.
+Stay updated with MongoDB’s latest features and best practices. 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+============================================
 // General MongoDB Questions
 What is MongoDB, and how does it differ from traditional relational databases?
 Describe the basic architecture of MongoDB.
